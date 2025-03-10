@@ -1,0 +1,141 @@
+@media (max-width: 1040px) {
+  main > img {
+    width: 500px;
+  }
+  .hamburger {
+    display: block;
+    position: absolute;
+    z-index: 1000;
+    color: white !important;
+    right: 0;
+    background-color: purple;
+    padding: 0.5em;
+    border-radius: 5px;
+    box-shadow: 0 5px 1em rgba(0, 0, 0, 0.176);
+  }
+  .nav-btn {
+    margin-right: 8em;
+  }
+  .login-md {
+    display: block;
+  }
+  nav ul li a {
+    color: white;
+  }
+  nav ul {
+    width: 100%;
+    position: fixed;
+    left: 100%;
+    padding: 5em 0;
+    gap: 3em;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    top: 0;
+    background-image: linear-gradient(to right, purple, black);
+    transition: all 0.3s ease-in-out;
+  }
+  .active {
+    left: 0;
+  }
+  .lin-se {
+    flex-direction: column;
+    gap: 0;
+  }
+  .do-more-with-money section header h1 {
+    font-size: 2.8em;
+  }
+  .privacy-and-security section {
+    flex-direction: column;
+  }
+  .p-a-s-i,
+  .p-a-s-c {
+    width: 100%;
+  }
+  .p-a-s-c {
+    padding: 4em !important;
+  }
+  .join-millon {
+    flex-direction: column;
+    gap: 2em;
+  }
+  .footer-1 {
+    flex-direction: column;
+    padding: 1em 0 1em 6em;
+    gap: 2em;
+  }
+}
+
+@media (max-width: 580px) {
+  #palmpay-body {
+    padding: 0% 5%;
+  }
+  nav > a img {
+    width: 80px !important;
+  }
+  .nav-btn select {
+    font-size: 1em !important;
+    padding: 0 !important;
+  }
+  main > img {
+    width: 280px;
+  }
+  main > p {
+    font-size: 2.1em;
+    width: 100%;
+  }
+  .nav-btn {
+    margin-right: 4em;
+    gap: 1em !important;
+  }
+  .do-more-with-money section header h1 {
+    text-align: center;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif !important;
+    text-transform: capitalize;
+  }
+  .p-a-s-c h2 {
+    font-size: 2.5em;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif !important;
+    text-transform: capitalize;
+  }
+  .join-millon h1 {
+    font-size: 2.6em;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+  .footer-2 p{
+    font-size: 1.3em;
+  }
+  .main-img img {
+    width: 130px;
+  }
+  .nav-btn button {
+    padding: 8px !important;
+  }
+  .nav-btn select {
+    font-size: 0.7em !important;
+  }
+  .hamburger{
+    font-size: 2em;
+    right: -15px;
+  }
+  nav > a img {
+    width: 70px;
+  }
+  .lin-se section p {
+    font-size: 1.3em;
+  }
+  .lin-se {
+    gap: 3em;
+    align-items: center;
+    justify-content: center;
+  }
+  .join-millon .join-img img {
+    width: 130px;
+  }
+}
