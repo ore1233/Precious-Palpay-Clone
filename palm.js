@@ -4,10 +4,10 @@ const icon = document.querySelector(".icon");
 
 bar.addEventListener("click", () => {
   if (ul.classList.contains("active")) {
-    ul.classList.remove("active");
-    icon.setAttributesetAttribute("class", "fas fa-times");
+      ul.classList.remove("active");
+      icon.setAttribute("class", "fas fa-bars-staggered");
 } else {
     ul.classList.add("active");
-    icon.setAttribute("class", "fas fa-bars");
+    icon.setAttribute("class", "fas fa-times");
   }
 });
